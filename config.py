@@ -20,4 +20,4 @@ class DefaultConfig:
     QNA_ENDPOINT_KEY = os.environ.get("QnAEndpointKey", "57aa96ad-478c-4dee-8340-367c88fab324")
     QNA_ENDPOINT_HOST = os.environ.get("QnAEndpointHostName", "https://rhr-qna.azurewebsites.net/qnamaker")
     
-    #
+    
