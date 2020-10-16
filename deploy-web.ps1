@@ -1,0 +1,1 @@
+Publish-AzWebApp -ResourceGroupName rhr-qna -Name rhr-qna-auth -ArchivePath C:\DEV\azure\rhr-auth-msgraph-qna\rhr-auth-msgraph-qna.zip -Force

@@ -1,0 +1,2 @@
+@echo off
+az deployment group create --resource-group "rhr-qna" --template-file "deploymentTemplates/template.json" --parameters appId="1fb6e46f-3487-4605-93a0-8bb956b6fa61" appSecret="a_Q~CaOqKw7H_hOpqd9b~X1gDLP0~eINs-" botId="rhr-qna-auth" newWebAppName="rhr-qna-auth" newAppServicePlanName="rhr-qna-auth" appServicePlanLocation="westeurope" --name "rhr-qna-auth"
