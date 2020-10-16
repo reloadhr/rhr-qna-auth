@@ -19,3 +19,5 @@ class DefaultConfig:
     QNA_KNOWLEDGEBASE_ID = os.environ.get("QnAKnowledgebaseId", "ebdc9aa4-c570-466b-b0e0-fb350c396179")
     QNA_ENDPOINT_KEY = os.environ.get("QnAEndpointKey", "57aa96ad-478c-4dee-8340-367c88fab324")
     QNA_ENDPOINT_HOST = os.environ.get("QnAEndpointHostName", "https://rhr-qna.azurewebsites.net/qnamaker")
+    
+    #
